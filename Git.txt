@@ -1,1 +1,20 @@
 git init - used to create a new git repo
+
+git status - it tells the status in the repo
+git add "file_name" - Add the specifc file.
+git add . - add all the file that are changed or added in one go
+git commit -m "Give_message" - it commit all the added file.
+
+Now create a repository in the github
+After creating the repository in the github, copy the repo url
+Now,
+
+git remote add origin <-repo_url-> - It add new remote "origin"
+# if we want we can give any other name instead of origin but we mainly give origin.
+
+git remove -v - it is to verify the remote.
+git branch - It tells us in which branch are we in.
+git branch -M <-new_branch_name-> - to rename the branch name.
+
+git push <-remote_name-> <-branch_name-> - It pushes the data from your local machine to Github. 
+git push -u <-remote_name-> <-branch_name-> - It set upsteram. #It is used when we want to push changes to the same repo again and again we use this. After using this, if we want to push data again, we can just use "git push". 
