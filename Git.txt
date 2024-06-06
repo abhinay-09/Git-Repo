@@ -30,4 +30,6 @@ git checkout -b <-branch_name-> - for creating a new branch
 git checkout <-branch_name-> - moving from one branch to another
 git branch -d <-branch_name-> - To delete the branch.
 we cannot delete the branch if we are in the branch that we are trying to delete.
- 
+
+git diff main - to know the diference between main and branch
+
