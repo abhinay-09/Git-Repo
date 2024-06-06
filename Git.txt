@@ -1,3 +1,4 @@
+# This is creating Repo and uploading in Github.
 git init - used to create a new git repo
 
 git status - it tells the status in the repo
