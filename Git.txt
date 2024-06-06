@@ -18,3 +18,5 @@ git branch -M <-new_branch_name-> - to rename the branch name.
 
 git push <-remote_name-> <-branch_name-> - It pushes the data from your local machine to Github. 
 git push -u <-remote_name-> <-branch_name-> - It set upsteram. #It is used when we want to push changes to the same repo again and again we use this. After using this, if we want to push data again, we can just use "git push". 
+
+git clone <-repo url-> - To clone the repo.
