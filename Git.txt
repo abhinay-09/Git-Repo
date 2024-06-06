@@ -33,3 +33,11 @@ we cannot delete the branch if we are in the branch that we are trying to delete
 
 git diff main - to know the diference between main and branch
 
+git merge main - It will merge with main if there is any conflict it will show, whatever feature you want to keep just add it.
+After making the changes go to main merge it with bran. 
+
+git reset head~1 - to take back to previous commit
+git log - Give all the commit log.
+
+git reset <-hash-> - to change to a specific commit
+git reset --hard <-hash-> - to make the same change to your local computer also
